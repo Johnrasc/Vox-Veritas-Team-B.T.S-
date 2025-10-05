@@ -19,6 +19,21 @@ body {
   scrollbar-width: none;    
 }
 
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.69rem; /* space */
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 32px;   /* adjust */
+  height: 32px;  
+  object-fit: contain;
+  border-radius: 6px; 
+}
+
 /* Background video */
 .video-background {
   position: fixed;
@@ -377,7 +392,13 @@ footer {
   .split-text {
     text-align: center;
   }
+
+    .logo-img {
+    width: 26px;
+    height: 26px;
+  }
 }
+
 
 
 
