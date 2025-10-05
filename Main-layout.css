@@ -9,6 +9,8 @@ body, html {
   font-family: 'Courier Prime', monospace; 
   scroll-behavior: smooth;
   overflow-x: hidden;
+  
+  color: white;              
 }
 
 body::-webkit-scrollbar {
@@ -243,18 +245,6 @@ header {
   animation: floatUpDown 6s ease-in-out infinite;
 }
 
-/* Responsive: On small screens, stack text above image */
-@media (max-width: 768px) {
-  .hero .split {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-text {
-    text-align: center;
-  }
-}
-
 /* Widen text vertically */
 .section .inner p,
 .hero .content p {
@@ -380,7 +370,6 @@ footer {
 }
 
 
-
 /* Responsive stacking */
 @media (max-width: 768px) {
   .split-container,
@@ -397,7 +386,17 @@ footer {
     width: 26px;
     height: 26px;
   }
+
+  .hero .split {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
 }
+
 
 
 
