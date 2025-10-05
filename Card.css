@@ -21,7 +21,6 @@ main {
 	transition: .15s ease;
 	cursor: pointer;
 	padding: 5% 5% 15% 5%;
-  left: 38px;
 
   width: 24rem;
   height: 36rem;
@@ -89,3 +88,4 @@ main {
 .material-symbols-outlined {
   vertical-align: middle;
 }
+
