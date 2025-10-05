@@ -60,7 +60,7 @@ main {
 }
 
 .card p {
-  inset: auto auto 60px 30px;
+  inset: auto auto 50px 30px;
 }
 
 .card a {
@@ -89,5 +89,6 @@ main {
 .material-symbols-outlined {
   vertical-align: middle;
 }
+
 
 
