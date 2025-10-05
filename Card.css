@@ -7,9 +7,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* make sure full screen height */
+  min-height: 100vh;
   padding: 50px;
-  margin: 0 auto; /* center horizontally */
+  margin: 0 auto; 
 }
 
 .card {
@@ -26,9 +26,6 @@ main {
   overflow: hidden;
   color: var(--color-primary-white);
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-
-  left: 0;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +60,7 @@ main {
 }
 
 .card p {
-  inset: auto auto 80px 30px;
+  inset: auto auto 60px 30px;
 }
 
 .card a {
@@ -92,4 +89,5 @@ main {
 .material-symbols-outlined {
   vertical-align: middle;
 }
+
 
